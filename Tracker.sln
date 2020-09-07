@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracker.Core", "Tracker.Core\Tracker.Core.csproj", "{4BC64221-7104-4C3C-AB22-238E3138CC5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracker.Ui", "Tracker.Ui\Tracker.Ui.csproj", "{1364842F-A59C-405F-B1AF-626D11536835}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6CA4405-C267-46C3-8D50-FAB53DEE21F8}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Timetracker.png = Timetracker.png
+		Timetracker.sketch = Timetracker.sketch
+		Todo.md = Todo.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracker.Core.UnitTests", "Tracker.Core.UnitTests\Tracker.Core.UnitTests.csproj", "{83E3DA3B-6F3E-41D7-BD0E-A651C866C19D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.Core.IntegrationTests", "Tracker.Core.IntegrationTests\Tracker.Core.IntegrationTests.csproj", "{61AAD632-6D28-4879-B54A-EBCF99FF915F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC64221-7104-4C3C-AB22-238E3138CC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC64221-7104-4C3C-AB22-238E3138CC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC64221-7104-4C3C-AB22-238E3138CC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC64221-7104-4C3C-AB22-238E3138CC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1364842F-A59C-405F-B1AF-626D11536835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1364842F-A59C-405F-B1AF-626D11536835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1364842F-A59C-405F-B1AF-626D11536835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1364842F-A59C-405F-B1AF-626D11536835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E3DA3B-6F3E-41D7-BD0E-A651C866C19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E3DA3B-6F3E-41D7-BD0E-A651C866C19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E3DA3B-6F3E-41D7-BD0E-A651C866C19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E3DA3B-6F3E-41D7-BD0E-A651C866C19D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61AAD632-6D28-4879-B54A-EBCF99FF915F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AAD632-6D28-4879-B54A-EBCF99FF915F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61AAD632-6D28-4879-B54A-EBCF99FF915F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61AAD632-6D28-4879-B54A-EBCF99FF915F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D443E17-193C-4A30-87D7-E20DB4B57536}
+	EndGlobalSection
+EndGlobal
